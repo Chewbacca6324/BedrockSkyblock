@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.26.0",
   "minecraft:biome": {
     "description": {
       "identifier": "minecraft:ice_plains"
@@ -36,6 +36,16 @@
           "top_material": "minecraft:bedrock",
           "sea_material": "minecraft:air"
         }
+      },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:ice_mountains",
+        "mutate_transformation": "minecraft:ice_plains_spikes",
+        "generate_for_climates": [
+          [ "frozen", 3 ]
+        ]
+      },
+      "minecraft:village_type": {
+        "type": "ice"
       },
       "minecraft:tags": {
         "tags": [

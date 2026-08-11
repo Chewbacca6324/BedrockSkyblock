@@ -27,6 +27,16 @@
           "sea_material": "minecraft:air"
         }
       },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:cold_taiga_hills",
+        "mutate_transformation": "minecraft:cold_taiga_mutated",
+        "generate_for_climates": [
+          [ "frozen", 1 ]
+        ]
+      },
+      "minecraft:village_type": {
+        "type": "taiga"
+      },
       "minecraft:tags": {
         "tags": [
           "animal",

@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.26.0",
   "minecraft:biome": {
     "description": {
       "identifier": "minecraft:deep_frozen_ocean"
@@ -25,8 +25,10 @@
           "sea_material": "minecraft:air"
         }
       },
-      "minecraft:overworld_height": {
-        "noise_type": "deep_ocean"
+      "minecraft:overworld_generation_rules": {
+        "generate_for_climates": [
+          [ "frozen", 1 ]
+        ]
       },
       "minecraft:tags": {
         "tags": [
@@ -37,7 +39,9 @@
           "overworld",
           "spawns_cold_variant_farm_animals",
           "spawns_cold_variant_frogs",
-          "spawns_polar_bears_on_alternate_blocks"
+          "spawns_polar_bears_on_alternate_blocks",
+          "fast_fishing",
+          "high_seas"
         ]
       }
     }

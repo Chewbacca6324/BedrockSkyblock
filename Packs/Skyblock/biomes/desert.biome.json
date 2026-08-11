@@ -34,6 +34,16 @@
           "sea_material": "minecraft:air"
         }
       },
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": "minecraft:desert_hills",
+        "mutate_transformation": "minecraft:desert_mutated",
+        "generate_for_climates": [
+          [ "warm", 3 ]
+        ]
+      },
+      "minecraft:village_type": {
+        "type": "desert"
+      },
       "minecraft:tags": {
         "tags": [
           "desert",

@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.110",
+  "format_version": "1.26.0",
   "minecraft:biome": {
     "description": {
       "identifier": "minecraft:swampland"
@@ -34,13 +34,21 @@
           "max_puddle_depth_below_sea_level": 1
         }
       },
+      "minecraft:overworld_generation_rules": {
+        "mutate_transformation": "minecraft:swampland_mutated",
+        "generate_for_climates": [
+          [ "medium", 1 ]
+        ]
+      },
       "minecraft:tags": {
         "tags": [
           "animal",
           "monster",
           "overworld",
           "swamp",
-          "spawns_slimes_on_surface"
+          "spawns_slimes_on_surface",
+          "slime",
+          "swamp_water_huge_mushroom"
         ]
       }
     }

@@ -1,5 +1,5 @@
 import { world, system,CommandPermissionLevel, CustomCommandParamType  } from '@minecraft/server';
-import {ModalFormData } from "@minecraft/server-ui";
+import { ModalFormData } from "@minecraft/server-ui";
 
 var uiLoop = 0
 var challengeMode = "Classic"
